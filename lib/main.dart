@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:game_king/Bottom_sheet.dart';
+import 'package:game_king/dart.dart';
 import 'package:game_king/games_page.dart';
 import 'package:game_king/log%20ui.dart';
 import 'package:game_king/lottery_Games_page.dart';
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primaryColor: Colors.white,
       ),
-        home: SirTask()
+        home: Bottomsheet()
     );
   }
 }

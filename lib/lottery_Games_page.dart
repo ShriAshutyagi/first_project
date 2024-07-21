@@ -214,7 +214,6 @@ class _lottery_gameState extends State<lottery_game> {
                         Container(
                           width: 100,
                           height: 130,
-
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             crossAxisAlignment: CrossAxisAlignment.center,
